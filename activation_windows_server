@@ -1,0 +1,7 @@
+Активация windows server 20XX
+
+Открыть командную строку от имени администратора
+DISM /online /Set-Edition:ServerStandard /ProductKey:XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /AcceptEula
+DISM /online /Set-Edition:ServerDatacenter /ProductKey:XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /AcceptEula
+
+Ссылка на ключи https://docs.microsoft.com/ru-ru/windows-server/get-started/kms-client-activation-keys
